@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Deploy Terraform with Workspace Support'
-        uses: https://github.com/alessonviana/action-terraform-workspace@v0.0.1
+        uses: github.com/alessonviana/action-terraform-workspace@v0.0.1
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
